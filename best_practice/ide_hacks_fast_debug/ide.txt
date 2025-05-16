@@ -1,0 +1,48 @@
+Best Practice To Know About IDE 
+-------------------------------
+
+         - Make Folder Structure Look Good
+
+                      - Open Setting --> Search For " Compact Folders" (Un-Check the check button)
+                
+
+
+
+
+Coomon Best Extension For Frontend
+----------------------------------
+ 
+                 - Draw.io Integration
+                 - Prettier - Code formatter
+                 - GitHub Copilot
+                 
+
+
+What Are The Best Extension For Html
+------------------------------------
+
+               - Live Server
+               - 
+
+
+
+
+
+What are The Best Extension for css
+------------------------------------
+
+
+
+
+
+
+
+What are the Best Extension For JavaScript
+------------------------------------------
+
+              - Code Runner
+
+              - Bracket Pair Colorization Toggler
+
+
+

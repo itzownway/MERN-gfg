@@ -1,0 +1,40 @@
+
+Main Goal
+----------
+        |--- Learn How To Build A Complete and Any Website Layout
+
+
+
+css
+----
+     |-- Styling 
+     |
+     |-- Positioning (Layout)
+
+
+Best Font To Use On Website
+---------------------------
+       - Google Fonts  - https://fonts.google.com/
+                    |
+                    |---- CDN way (kept the cdn link inside Html Head Tag)
+                    |
+                    |---- copy the import link and add into css file 
+
+
+
+
+
+
+Important Link For css
+----------------------
+
+
+
+
+
+
+Best Way To Apply Colour At Web Pages
+-------------------------------------
+
+
+
