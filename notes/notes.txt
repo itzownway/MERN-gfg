@@ -4,7 +4,7 @@ Date - 10th May 2025
 
 
 Date - 11th May 2025
---------------------
+--------------------    
    
 
 
@@ -17,5 +17,163 @@ Date - 11th May 2025
 
 Date - 17th May 2025
 ---------------------
+
+
+     object ------------------ it help to play with animation
+             |-- move
+             |-- rotate 
+             |-- scale
+       
          
-           - Youtube Clone 
+           - position  properties
+
+                      - absolute 
+                      - relative
+                      - fixed
+                      - sticky ---> help for navbar 
+
+                
+                - absolute it looks the ---> near by relative 
+
+
+
+
+           - transform 
+
+
+           - css hover groups 
+
+           - 
+
+
+
+Align the Item to Center
+-------------------------
+           
+            - two way's to make the div align Center
+
+
+
+
+
+ Flex (default row)
+ -----
+
+     display : Flex  -----------> it is the parent (which will control the child always )
+
+     justify-content : -- it will only work for --> horizentally  (it always follw the direction flow)
+ 
+                   
+                     |--------- play with it's properties
+
+
+
+
+     flex-direction : row  ----> (it will take height )
+
+
+     flex-direction : coloumn  ----> (it will take width ) 
+
+
+     align-items : ----> 
+
+
+    gap 
+
+
+
+
+    wrap ---> for responsive of flex 
+
+
+
+     Learn about
+     -----------------
+             2rem , px , % 
+             100vh , 100vw
+
+
+      Images
+      ----------
+          - check the all Images type always go for svg 
+
+
+
+
+
+   Links - https://icon-sets.iconify.design/
+
+
+
+
+
+Date - 18th May 2025
+---------------------
+
+   CSS Grid
+   ---------
+
+
+
+
+
+
+   Links 
+     
+          - https://bentogrids.com/
+          - https://css-tricks.com/
+          - https://cubic-bezier.com/#.17,.67,.83,.67
+          - https://www.heroui.com/
+
+
+
+
+
+
+
+       design based on - use cases and requirement
+    
+       firebase website - design
+
+
+       user experience matter at all 
+
+
+
+  note 
+        - grid coloumn and grid row is the key ---> declare as per need 
+
+        - play with grid area then 
+
+        - never use px  (it will take same for all screens)
+
+
+        - always use rem and em 
+
+
+        - 1rem ---> 16px (default)----> html 
+
+        - 1em --- > it will take from parent 
+    
+
+
+
+
+ Animation
+ ---------
+
+      - keyframe  --- declare the name 
+
+      - animation --- call the name 
+
+
+      - pattern | time | time function 
+
+
+      - gradient 
+
+
+      - z-index (if you want to overlap any content at that case we can use)
+
+      css variables 
+             
