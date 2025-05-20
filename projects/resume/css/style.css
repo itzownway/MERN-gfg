@@ -1,68 +1,62 @@
- @page {
-      size: A4;
-      margin: 1in;
-    }
+@page {
+    size: A4;
+    margin: 1in;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #000;
-      background: #fff;
-    }
+  #container {
+    background-color: #9bb9aa;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+  }
 
-    .container {
-      width: 100%;
-      max-width: 800px;
-      margin: auto;
-      padding: 40px;
-    }
+  #header {
+      display: flex;
+      justify-content: space-around;
+      background-color: rgb(152, 190, 190);
+  }
 
-    h1 {
-      font-size: 32px;
-      font-weight: bold;
-    }
-
-    h2 {
-      font-size: 20px;
-      margin-top: 30px;
-      border-bottom: 2px solid #000;
-      padding-bottom: 5px;
-    }
-
-    .header, .section {
-      margin-bottom: 30px;
-    }
-
-    .info {
+  #contact {
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
-    }
+      padding: 10px;
+  }
 
-    .info div {
-      margin-top: 5px;
-    }
+  #contact-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+  }
 
-    .bold {
-      font-weight: bold;
-    }
+  #experience {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+  }
 
-    ul {
-      margin: 10px 0 0 20px;
-      padding: 0;
-    }
+  #education {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: flex-start;
+      
+  }
 
-    li {
-      margin-bottom: 5px;
-    }
+  #certificates {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+  }
 
-    .title {
-      font-weight: bold;
-    }
 
-    .subtitle {
-      font-style: italic;
-      color: #555;
-    }
+
+
+
