@@ -71,3 +71,70 @@ How To Make Visible Your Branch At Ubuntu Terminal
         - Close the Terminal or Vs Code  Re-Open 
 
         - Reload the bashrc (source ~/.bashrc)
+
+
+
+How To Install Node and npm using NVM  - official documents - https://nodejs.org/en/download
+--------------------------------------------------------------------------------------------
+
+  - once setup done ---> close the Terminal and Re-Open
+  
+  # Download and install nvm:
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+ 
+  # in lieu of restarting the shell
+    \. "$HOME/.nvm/nvm.sh"
+
+  # Download and install Node.js:
+    nvm install 22
+
+  # Verify the Node.js version:
+    node -v # Should print "v22.15.1".
+    nvm current # Should print "v22.15.1".
+
+  # Verify npm version:
+    npm -v # Should print "10.9.2".
+
+
+  - Switching between Node.js versions is very simple. 
+  - Here's how you can install and switch to Node.js version 20 or 18:   
+
+
+  Install Node.js version 20
+  ---------------------------
+            - nvm install 20
+
+  Install Node.js version 18
+  --------------------------
+            - nvm install 18
+
+
+  Switch to a specific version
+  ----------------------------
+
+           - nvm use 20
+
+           - nvm use 18
+
+           - nvm use 22
+
+  Set a default Node.js version
+  -----------------------------
+      
+          - nvm alias default 20
+
+  Check installed versions
+  ------------------------
+   
+         - nvm ls
+
+  Step-by-Step: How to use .nvmrc for project-specific Node.js versions
+  ---------------------------------------------------------------------       
+
+
+
+
+
+
+How to Host the Noraml Html and Css Page to Github Pages (here if It is Inside a Directory)
+--------------------------------------------------------------------------------------------
