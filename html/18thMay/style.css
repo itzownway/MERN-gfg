@@ -1,0 +1,43 @@
+@page {
+    size: A4;
+    margin: 1in;
+}
+*{
+   margin: 0;
+   padding: 0;
+  }
+
+  #container {
+      grid-template-areas: 
+      "header1 header2";
+      grid-template-columns: 1fr 3fr;
+  }
+  
+  #header1 {
+      grid-area: header;
+       text-align: center;
+  }
+
+  #header2 {
+    grid-area: header2;
+     text-align: center;
+   }
+
+  #contact {
+      grid-area: contact;
+  }
+
+  #heading {
+      grid-area: heading;
+  }
+
+  #contact-info {
+    grid-area: contact-info;
+  }
+
+
+
+
+
+
+
