@@ -177,3 +177,36 @@ Date - 18th May 2025
 
       css variables 
              
+
+
+
+24th May 2025
+-------------
+
+  - gap ---> it only work for flex and grid 
+
+
+  - padding -------------> only use for interal case of div.
+
+
+  - flex by default did not have the warp so -- content will be squiz 
+
+
+  - overflow --> is important 
+
+
+
+
+
+  JavaScript
+  -----------
+
+
+        - javascript.info 
+
+        - 
+  
+
+   
+       - how js code is executing flow ----> top to bottom ot (?)
+
