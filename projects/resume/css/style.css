@@ -44,7 +44,7 @@
 
   #education {
       display: flex;
-      justify-content: space-between;
+      gap: 12rem;
       padding: 10px;
       align-items: flex-start;
       
@@ -52,7 +52,7 @@
 
   #certificates {
       display: flex;
-      justify-content: space-between;
+      gap: 12rem;
       padding: 10px;
   }
 
