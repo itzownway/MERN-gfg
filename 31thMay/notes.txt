@@ -1,0 +1,162 @@
+Object In JavaScript
+---------------------
+
+
+
+   - Object
+         |
+         |--- keys
+         |
+         |--- values
+         |
+         |--- enteries 
+
+
+
+         - recurssion in JavaScript sum of n numbers
+         - fibonacci
+         - find first n primes 
+         - sum of first n primes 
+
+
+
+         - Heap | RAM  | Buffer
+
+
+         - 
+
+
+  Functions
+  -------------
+
+
+      - Normal Function 
+
+
+      - Anonymous Function
+
+      - 
+
+      - Fat Arrow  Function        
+
+                |----- anonomous Function by nature (need to hold on variable )
+
+
+                |----- this keyword is not accessible by Anonymous Function
+
+     - 
+
+
+
+
+    const x = (n) => {
+        return n * 2;
+    }
+    
+
+     const x = (n) => n*2;
+
+
+
+
+
+Methods
+-------
+     Transformative 
+
+              |---- map
+              |---- flat 
+              |---- flatMap
+              |---- reduce 
+
+
+     
+     Filteration 
+
+               |---- filter 
+               |
+               |---- find 
+               |---- some
+               |---- every
+               |---- findIndex  
+
+
+
+
+- anonomous function main use of ---> inside the method 
+
+
+
+
+
+Date - 01/01/2025
+-----------------
+
+    - Classes 
+        ---------
+           
+            - 
+
+
+
+
+ Window
+ --------
+     | ---- DOM 
+     |----- BOM
+     |----- Js 
+
+
+
+  
+
+
+
+   - DOM
+   --------
+    
+       - 
+
+
+
+
+
+
+   Evetns
+   -------
+
+
+
+
+
+   submit ---> reload the form 
+
+
+   - DOMContentLoaded --> for animation at page load
+
+
+
+
+
+   Create an cusotm Event 
+   -----------------------
+       - addEventListner 
+
+
+
+       - capturing and bubbling 
+
+
+
+
+   - Event is the Key Concept 
+
+
+
+
+   - Array Methods
+   - Event
+   - DOM
+   - Virtual DOM
+   - Async Functions
+   -     
