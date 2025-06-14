@@ -1,0 +1,140 @@
+import './App.css';
+
+     function App() {
+             return (
+                 <div id="container">
+                     <Header />
+                     <hr />
+                     <Contact />
+                     <hr />
+                     <Experience />
+                     <hr />
+                     <Education />
+                     <hr />
+                     <Certificates />
+                  </div>
+            );
+      }
+
+      function Header() {
+         return (
+            <div id="header">
+               <h1>Sanjay Kumar Das</h1>
+               <span>Computer Science and Engineering</span>
+            </div>
+         );
+      }
+
+      function Contact() {
+         return (
+            <section id="contact">
+               <div id="heading">
+               <h4>Contact</h4>
+               </div>
+               <div id="contact-info">
+               <div>
+                  <p><span className="bold">Phone:</span> +91-7681887707</p>
+                  <p><span className="bold">Email:</span> itzzsanjaykumardas@gmail.com</p>
+               </div>
+               <div>
+                  <p><span className="bold">Address:</span> Gapabandhu Nagar, Bhadrak, Odisha, India, 756125</p>
+                  <p><span className="bold">Portfolio:</span> www.itzownway.tech</p>
+               </div>
+               </div>
+            </section>
+         );
+      }
+
+
+      function Experience() {
+         return (
+            <div id="experience">
+               <div id="heading">
+                  <h4>Professional Experience</h4>
+               </div>
+               <div id="info">
+                  <h4>Software Developer | 2021–2024</h4>
+                  <h4>Codilar Technology pvt.ltd</h4>
+                  <ul>
+                     <li>Worked on various client projects at Codilar:</li>
+                  <ul>
+                     <li><strong>Casio Japan (Outsourced to Adobe for 1 year 4 months):</strong>
+                  <ul>
+                     <li>Developed and fixed features based on requirements</li>
+                     <li>Built custom payment methods like Orico with complete setup</li>
+                     <li>Resolved issues such as checkout bugs and implemented new Magento features</li>
+                  </ul>
+                  </li>
+                  <li><strong>Marina Home (UAE-based project):</strong>
+                  <ul>
+                     <li>Supported REST APIs extensively</li>
+                     <li>Provided API support for the iOS app</li>
+                     <li>Worked on default Magento APIs and custom modifications based on frontend needs</li>
+                  </ul>
+                  </li>
+                     <li><strong>Feature Development:</strong>
+                  <ul>
+                    <li>Login using Google and Apple Pay</li>
+                    <li>Customized RMA journey (integrated third-party library)</li>
+                    <li>Share Cart functionality (via WhatsApp, email, phone)</li>
+                    <li>Developed and modified major components: Home Page, PDP, PLP, Checkout, Cart, Wishlist, Order Creation</li>
+                    <li>Handled both guest and logged-in flows across the app until July 2024</li>
+                  </ul>
+                  </li>
+                  </ul>
+                  </ul>
+                  <h4>Magento Developer | 2024–Present</h4>
+                  <h4>ForeverNew</h4>
+                  <ul>
+                    <li>Joined in August 2024 and worked on a variety of day-to-day tasks as per business requirements</li>
+                    <li>Focused mainly on fixing long-standing bugs dating back to 2015 and 2012</li>
+                    <li>Integrated a new Apple Pay feature, including design fixes for the mini-cart and checkout page</li>
+                    <li>Modified the Adyen payment module to meet project-specific requirements</li>
+                    <li>Handled various other tasks and Magento bug resolutions</li>
+                  </ul>
+               </div>
+            </div>
+         );
+      }
+
+      function Education() {
+         return (
+            <div id="education">
+               <div>
+                  <h4>Education</h4>
+               </div>
+               <div>
+                  <h4>Nalanda Institute Of Technology, Bhubaneswar | 2016–2021</h4>
+                  <h4>Computer Science and Engineering</h4>
+                  <ul>
+                     <li>CGPA: 8.16</li>
+                     <li>Selenium Project To - Crack BPUT Password (Regd number Known)</li>
+                  </ul>
+                  <h4>S.N College, Odisha | 2021–2025</h4>
+                  <h4>+2 Science</h4>
+                  <ul>
+                     <li>CGPA: 5.14</li>
+                  </ul>
+               </div>
+            </div>
+         );
+      }
+
+
+      function Certificates() {
+         return (
+            <div id="certificates">
+               <div>
+                  <h4>Certificates</h4>
+               </div>
+               <div>
+                  <ul>
+                     <li><span className="bold">Adobe Certified | 2022</span> – Professional Adobe Commerce Developer</li>
+                     <li><span className="bold">Adobe Certified | 2024</span> – Professional Adobe Experience Manager Developer</li>
+                  </ul>
+               </div>
+            </div>
+         );
+      } 
+
+export default App;
