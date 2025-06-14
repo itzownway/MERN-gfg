@@ -1,0 +1,28 @@
+Setup React
+===========
+
+   - visit the - https://react.dev/learn
+
+   - install using vite -> https://vite.dev/guide/
+
+
+Step's
+-------
+
+     - npm create vite@latest
+
+     - enter the project name
+
+     - select the react (any other if want)
+
+     - select the respective type of project --> javascript | typescript 
+       
+
+     - cd my-project
+     
+     - npm install
+     
+     - npm run dev  
+
+
+
