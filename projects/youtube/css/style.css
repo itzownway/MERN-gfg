@@ -71,7 +71,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space; */
-	gap: 0.5rem;
+	gap: 2rem;
 	padding: 1rem;
 	overflow: auto;
 }
